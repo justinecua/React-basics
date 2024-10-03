@@ -113,12 +113,17 @@ hr {
   border-radius: 2px;
 }
 
-#hC1 {
+.HistoryContainer {
+  width: 100%;
+  max-height: 18rem;
+  overflow-y: auto;
+}
+
+.hC1 {
   border-right: 6px solid #00be6b;
 }
 
-#hC2,
-#hC3 {
+.hC2 {
   border-right: 6px solid #a1342b;
 }
 
